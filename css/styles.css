@@ -1,18 +1,38 @@
 /* CSS for animal-tradin-card */
 
 /*Reset Defaults*/
-html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-        padding: 0;
-        border: 0;
-        margin: 0;
-      }
-p {
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+li,
+p,
+a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
 	font-family: "Times New Roman", Arial, sans-serif;
 	font-size: 15px;
 }
-#card {
+
+h3 {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 30px 0 15px 15px;
+}
+
+.card {
 	background: #FFF;
 	border: 2px solid #ddd;
+	border-radius: 5px;
 	-webkit-box-shadow: 0px 6px 15px 8px rgba(221,221,221,1);
     -moz-box-shadow: 0px 6px 15px 8px rgba(221,221,221,1);
     box-shadow: 0px 6px 15px 8px rgba(221,221,221,1);
@@ -20,43 +40,38 @@ p {
 	margin: 15px auto 0 auto;
 }
 
-#card h3 {
-	font-family: "Open Sans", Helvetica, sans-serif;
-	font-size: 24px;
-	font-weight: bold;
-	margin: 30px 0 15px 15px;
-}
-
-#card img {
+.card img {
 	border: 1px solid #ddd;
 	display: block;
 	width: 300px;
 	margin: 5px auto 15px auto;
 }
 
-#facts {
+.facts {
 	width: 300px;
 	border: 1px solid #ddd;
 	margin: 5px auto 15px auto;
 	
 }
 
-#fun-fact{
+.fun-fact {
 	font-style: italic;
 	text-align: justify;
 	padding: 10px;
 }
 
-#description {
+.description {
 	font-family: "Times New Roman", Arial, sans-serif;
 	margin-bottom: 10px;
 	padding: 10px;
 	text-align: justify;
 }
-#facts ul {
+
+.facts ul {
 	list-style-type: none;
 	padding: 10px;
 }
-#facts ul span{
+
+.bold {
 	font-weight: bold;
 }
